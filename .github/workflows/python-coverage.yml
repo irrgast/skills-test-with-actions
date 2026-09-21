@@ -39,3 +39,7 @@ jobs:
 
       - name: Fail if below threshold
         run: coverage report --fail-under=90
+      - name: Fail if below threshold
+        run: coverage report --fail-under=90
+        
+        
